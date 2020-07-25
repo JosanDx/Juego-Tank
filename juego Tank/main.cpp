@@ -321,7 +321,7 @@ int main(int argc, char* argv[])
 	_beginthread(hilo, 0, NULL);
 
 
-	char tecla;
+	char tecla = 'm';
 	Tanque jugador;
 	jugador.dir = izquierda;
 	jugador.Tipo = J1;
